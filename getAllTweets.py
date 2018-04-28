@@ -13,7 +13,7 @@ def getalltweets(twitter, username):
 		tweets.extend(new_tweets)
 		oldest = extend(new_tweets)
 		oldest = tweets[-1]['id'] - 1
-		savetojson(username, tweets, '_tweets')
+		print(str(new_tweets))
 
 #This function saves parameter data (json) to file.
 #Filename used is in following format: username_type.json where type is a filename format.

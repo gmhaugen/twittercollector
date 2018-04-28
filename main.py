@@ -15,3 +15,4 @@ twitter = Twython(
 	oauth_otken=auth_token,
 	oauth_otken_secret=auth_secret)
 
+getalltweets(twitter, "donaldtrump")
