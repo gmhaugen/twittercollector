@@ -12,7 +12,7 @@ auth_secret = open("access-token-secret.apikey")
 twitter = Twython(
 	app_key=app_token,
 	app_secret=app_secret,
-	oauth_otken=auth_token,
-	oauth_otken_secret=auth_secret)
+	oauth_token=auth_token,
+	oauth_token_secret=auth_secret)
 
 getalltweets(twitter, "donaldtrump")
