@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from twython import *
+from getAllTweets import *
 
 app_token = open("consumer-key.apikey")
 app_secret = open("consumer-secret.apikey")
